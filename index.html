@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV.HTML</title>
+</head>
+<body>
+    <header>
+        <img src="profile-photo.png" alt="Profile Photo" class="profile-photo" onerror="this.src='https://placehold.co/120x120/2b6cb0/ffffff?text=Photo'">
+       <!--Full Name-->
+        <h1 itemprop="name">Helen Tochko</h1>
+        <a itemprop="jobTitle">Web Developer & JavaScript/Symfony Specialist</p>
+        <p>10+ years of professional experience building scalable web apps. Quick learner, JS library agnostic, comfortable with Angular and React ecosystems.</p>
+        <!--Contact Information-->
+        <div class="contact-info">
+            <a itemprop="telephone" href="tel:+48724328775"><i class="fa-solid fa-phone"></i> +48 724 328 775</a>
+            <a href="mailto:lentochko@gmail.com" itemprop="email"><i class="fa-solid fa-envelope"></i> lentochko@gmail.com</a>
+            <a href="https://linkedin.com/in/htochko-webdev/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <span><i class="fa-brands fa-discord"></i> htochko</span>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
+            <!--Brief Self-Introduction (your goals and priorities, emphasize your strengths, describe your work experience if applicable, or your desire to learn and acquire new skills)-->
+            <h2>Summary</h2>
+            <p>Web Developer with over 10 years of professional experience. Passionate about designing and developing web-applications, specializing in PHP-Symfony (Laravel, Magento, Zend, occasionally) and Javascript/Typescript-ReactJS+REDUX, Leaflet.js (jQuery, Angular, Express.js occasionally), using tools Docker, Webpack. Actively learning new software design approaches to build better products.</p>
+        </section>
+        <section id="skills">
+            <!--Skills (programming languages, frameworks, methodologies, version control systems, and development tools you are proficient in)-->
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li itemprop="knowsAbout">Core JavaScript</li>
+                <li itemprop="knowsAbout">TypeScript</li>
+                <li itemprop="knowsAbout">ReactJS</li>
+                <li itemprop="knowsAbout">Angular</li>
+                <li itemprop="knowsAbout">Express.js</li>
+                <li itemprop="knowsAbout">Leaflet.js</li>
+                <li itemprop="knowsAbout">jQuery</li>
+                <li itemprop="knowsAbout">PHP</li>
+                <li itemprop="knowsAbout">Symfony</li>
+                <li itemprop="knowsAbout">Laravel</li>
+                <li itemprop="knowsAbout">Magento</li>
+                <li itemprop="knowsAbout">MySQL</li>
+                <li itemprop="knowsAbout">PostgreSQL</li>
+                <li itemprop="knowsAbout">Docker</li>
+                <li itemprop="knowsAbout">Webpack</li>
+                <li itemprop="knowsAbout">Unit Testing</li>
+                <li itemprop="knowsAbout">Ubuntu</li>
+            </ul>
+        </section>
+        <section id="code">
+        <h2>Code Example (Codewars)</h2>
+        <p>Generate phone number challenge:</p>
+        <pre><code><span class="keyword">function</span> <span class="function">createPhoneNumber</span>(numbers) {
+  <span class="keyword">return</span> <span class="string">`(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`</span>;
+}</code></pre>
+    </section>
+        <section>
+            <!--Work Experience (Junior Devs can list educational projects with the skills used and links to the source code)-->
+            <h2>Experience</h2>
+                <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+                <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+                <h3 itemprop="name">ARAW S. A.</h3>
+                </article>
+        <p class="job-title">Programmer (Wrocław)</p>
+        <p class="job-duration"><time datetime="2023-04">04.2023</time> - <time datetime="2026-04">04.2026</time></p>
+        <p><strong>Project:</strong> <a href="https://www.wroclaw.pl/" rel="nofollow">wroclaw.pl</a> (city portal)</p>
+        <p><strong>Technologies:</strong> Reactjs, Leaflet, jQuery, MySQL, Redis, Docker, Laravel, Symfony</p>
+        <ul>
+            <li>Implemented new components, interactive maps, and quizzes to enhance user engagement.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Polcode</h3>
+        </article>
+        <p class="job-title">Symfony Developer</p>
+        <p class="job-duration"><time datetime="2022-07">07.2022</time> - <time datetime="2022-10-29">29.10.2022</time></p>
+        <p><strong>Project:</strong> <a href="https://www.firmprospects.com/" rel="nofollow">FirmProspects</a> (specialized portal for attorneys)</p>
+        <p><strong>Technologies:</strong> Reactjs + Redux, Symfony 4.x-6.x, MySQL, Elasticsearch, Docker</p>
+        <ul>
+            <li>Developed SEO-optimized public profile pages, refactored backend classes and React components for improved performance.</li>
+            <li>Implemented data visualizations using highcharts for reports, integrated the UniCourt API, and prepared Dockerfiles for sub-projects.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Agentura JT Group spol. sr.o.</h3>
+        </article>
+        <p class="job-title">Fullstack Developer</p>
+        <p class="job-duration"><time datetime="2021-06">06.2021</time> - <time datetime="2022-04">04.2022</time></p>
+        <p><strong>Project:</strong> <a href="https://ucliq.com" rel="nofollow">Ucliq.com</a> (affiliate system)</p>
+        <p><strong>Technologies:</strong> Reactjs + Redux (.ts), Symfony 5 (API-Platform), MySQL, ClickHouse, Docker</p>
+        <ul>
+            <li>Migrated frontend from EasyAdmin2 bundle to Reactjs + Redux, unified forms and data-tables workflow.</li>
+            <li>Synchronized time zones within the application and implemented new modules.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Belhard</h3>
+        </article>
+        <p class="job-title">Developer (Remote)</p>
+        <p class="job-duration"><time datetime="2018-10">10.2018</time> - <time datetime="2021-04">04.2021</time></p>
+        <p><strong>Project:</strong> DKNS (back-office for submitting and tracking supervision process)</p>
+        <p><strong>Technologies:</strong> Reactjs + Redux, Symfony 4, PostgreSQL</p>
+        <ul>
+            <li>Implemented back-office system and generated signed electronic documentation, rapidly adapting to project requirements.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">EPAM Systems</h3>
+        </article>
+        <p class="job-title">PHP Developer</p>
+        <p class="job-duration"><time datetime="2018-07">07.2018</time> - <time datetime="2018-10">10.2018</time></p>
+        <p><strong>Project:</strong> Integration between ERP and e-portal manomano</p>
+        <p><strong>Technologies:</strong> Reactjs, Symfony 4, MariaDB, Docker</p>
+        <ul>
+            <li>Enhanced data mapping module between ERP API and e-portal API, refactored for Unit Testing.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Twinslash</h3>
+        </article>
+        <p class="job-title">Developer</p>
+        <p class="job-duration"><time datetime="2017-05">05.2017</time> - <time datetime="2018-02">02.2018</time></p>
+        <p><strong>Project:</strong> Smart driving lab (driving academy)</p>
+        <p><strong>Technologies:</strong> Reactjs, Redux + Saga</p>
+        <ul>
+            <li>Provided support for existing application, built new features, and resolved critical bugs.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Freelance / Uvamo</h3>
+        </article>
+        <p class="job-title">Consultant / Developer</p>
+        <p class="job-duration"><time datetime="2016-10">10.2016</time> - <time datetime="2017-02">02.2017</time></p>
+        <p><strong>Project:</strong> Prototype for “Uvamo” (insurance service)</p>
+        <p><strong>Technologies:</strong> Reactjs, Redux, Firebase, Material-UI</p>
+        <ul>
+            <li>Consulted on architecture and carried out client-side development.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">Ciklum</h3>
+        </article>
+        <p class="job-title">Developer</p>
+        <p class="job-duration"><time datetime="2014-09">09.2014</time> - <time datetime="2016-10">10.2016</time></p>
+        <p><strong>Projects:</strong> I Invite you (Dating service) &amp; Payment.net (Payment system)</p>
+        <p><strong>Technologies:</strong> Reactjs, Redux, Express.js, MongoDB, Symfony 2, AngularJS</p>
+        <ul>
+            <li>Developed client/server-side components and demonstrated capacity to quickly learn and apply new frontend technologies such as AngularJS.</li>
+            <li>Conducted requirements analysis and back-office development with 100% unit test coverage.</li>
+        </ul>
+    </div>
+
+    <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
+        <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+            <h3 itemprop="name">R-StyleLab</h3>
+        </article>
+        <p class="job-title">Developer</p>
+        <p class="job-duration"><time datetime="2015-02">02.2015</time> - <time datetime="2015-08">08.2015</time></p>
+        <p><strong>Project:</strong> Smart driving lab (driving academy)</p>
+        <p><strong>Technologies:</strong> Reactjs, Redux + Saga</p>
+        <ul>
+            <li>Provided support for existing application, built new features, and resolved critical bugs.</li>
+        </ul>
+    </div>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <ul class="languages-list">
+                <li itemprop="knowsLanguage" content="Russian">Russian (C1)</li>
+                <li itemprop="knowsLanguage" content="Polish">Polish (B2+)</li>
+                <li itemprop="knowsLanguage" content="English">English (B2+)</li>
+                <li itemprop="knowsLanguage" content="German">German (A2)</li>
+            </ul>
+        </section>
+        <section>
+            <!--Education (including completed courses and training)-->
+            <h2>Education</h2>
+            <ul>
+                <li data-rs>
+                    <time itemprop="startDate" datetime="2026-09-07">September, 2026</time>-<time>now</time>
+                    RS School attendee (JavaScript Fullstack)
+                </li>
+                <li>
+                    <time itemprop="startDate" datetime="2016-10-01">October, 2016</time>
+                    <time itemprop="endDate" datetime="2016-09-01">September, 2021</time>
+                    Wroclaw University of Science and Technology (Architecture and Urban Planning)
+                </li>
+                <li>
+                    <time itemprop="startDate" datetime="2003-09-01">September, 2003</time>-<time itemprop="endDate" datetime="2008-07-01">July, 2008</time>
+                    Belarusian State University Informatics and Radioelectronics (Computer-AidedDesign)
+                </li>
+            </ul>    
+            
+        </section>
+    </main>
+<footer>
+        <nav class="footer-content">
+                <div class="rs-school-banner">
+                    <a href="https://rs.school/courses/javascript" target="_blank">
+                        <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b97be56aead8d10c06ef3473e0db9abaa662abf4/tasks/cv/rs-school-logo.svg" alt="RS School Logo" class="rs-banner-logo">
+                    </a>
+                </div>
+                <a href="https://github.com/htochko" class="github-link" target="_blank"><i class="fa-brands fa-github"></i> htochko</a> 
+        </nav>
+        <p class="creation-year">&copy; 2026</p>
+       </div>
+    </footer>
+</body>
+</html>
