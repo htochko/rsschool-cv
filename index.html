@@ -9,17 +9,30 @@
 </head>
 <body>
     <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#intro">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#experience">Work experience</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>    
+        </nav>
         <img src="profile-photo.png" alt="Profile Photo" class="profile-photo" onerror="this.src='https://placehold.co/120x120/2b6cb0/ffffff?text=Photo'">
        <!--Full Name-->
         <h1 itemprop="name">Helen Tochko</h1>
-        <a itemprop="jobTitle">Web Developer & JavaScript/Symfony Specialist</p>
+        <p itemprop="jobTitle">Web Developer & JavaScript/Symfony Specialist</p>
         <p>10+ years of professional experience building scalable web apps. Quick learner, JS library agnostic, comfortable with Angular and React ecosystems.</p>
         <!--Contact Information-->
-        <div class="contact-info">
-            <a class="fa-solid fa-phone" itemprop="telephone" href="tel:+48724328775">+48 724 328 775</a>
-            <a class="fa-solid fa-envelope" href="mailto:lentochko@gmail.com" itemprop="email">lentochko@gmail.com</a>
-            <a class="fa-brands fa-linkedin" href="https://linkedin.com/in/htochko-webdev/" target="_blank">LinkedIn</a>
-            <span class="fa-brands fa-discord">htochko</span>
+        <section id="contacts">
+            <ul>
+                <li class="fa-solid fa-phone"><a itemprop="telephone" href="tel:+48724328775">+48 724 328 775</a></li>
+                <li class="fa-solid fa-envelope"><a href="mailto:lentochko@gmail.com" itemprop="email">lentochko@gmail.com</a></li>
+                <li class="fa-brands fa-linkedin"><a href="https://linkedin.com/in/htochko-webdev/" target="_blank">LinkedIn</a></li>
+                <li class="fa-brands fa-discord"><a href="https://discord.com/users/1052706421684322356" target="_blank">htochko</a></li>
+            </ul>
         </div>
     </header>
     <main>
@@ -58,14 +71,14 @@
   <span class="keyword">return</span> <span class="string">`(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`</span>;
 }</code></pre>
     </section>
-        <section>
+    <section id="experience">
             <!--Work Experience (Junior Devs can list educational projects with the skills used and links to the source code)-->
             <h2>Experience</h2>
                 <div itemprop="worksFor" itemscope itemtype="https://schema.org/OrganizationRole">
                 <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
                 <h3 itemprop="name">ARAW S. A.</h3>
                 </article>
-        <p class="job-title">Programmer (Wrocław)</p>
+        <p class="job-title">Programmer</p>
         <p class="job-duration"><time datetime="2023-04">04.2023</time> - <time datetime="2026-04">04.2026</time></p>
         <p><strong>Project:</strong> <a href="https://www.wroclaw.pl/" rel="nofollow">wroclaw.pl</a> (city portal)</p>
         <p><strong>Technologies:</strong> Reactjs, Leaflet, jQuery, MySQL, Redis, Docker, Laravel, Symfony</p>
@@ -106,7 +119,7 @@
         <article itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
             <h3 itemprop="name">Belhard</h3>
         </article>
-        <p class="job-title">Developer (Remote)</p>
+        <p class="job-title">Developer</p>
         <p class="job-duration"><time datetime="2018-10">10.2018</time> - <time datetime="2021-04">04.2021</time></p>
         <p><strong>Project:</strong> DKNS (back-office for submitting and tracking supervision process)</p>
         <p><strong>Technologies:</strong> Reactjs + Redux, Symfony 4, PostgreSQL</p>
@@ -174,14 +187,14 @@
         </article>
         <p class="job-title">Developer</p>
         <p class="job-duration"><time datetime="2015-02">02.2015</time> - <time datetime="2015-08">08.2015</time></p>
-        <p><strong>Project:</strong> Smart driving lab (driving academy)</p>
-        <p><strong>Technologies:</strong> Reactjs, Redux + Saga</p>
+        <p><strong>Project:</strong> Shopping Mall (Saas navigation system)</p>
+        <p><strong>Technologies:</strong> Laravel, twitter bootstrap</p>
         <ul>
-            <li>Provided support for existing application, built new features, and resolved critical bugs.</li>
+            <li>Developed REST API for mobiles with multi language support and admin back-office</li>
         </ul>
     </div>
-        </section>
-        <section>
+    </section>
+    <section id="languages">
             <h2>Languages</h2>
             <ul class="languages-list">
                 <li itemprop="knowsLanguage" content="Russian">Russian (C1)</li>
@@ -189,23 +202,23 @@
                 <li itemprop="knowsLanguage" content="English">English (B2+)</li>
                 <li itemprop="knowsLanguage" content="German">German (A2)</li>
             </ul>
-        </section>
-        <section>
+    </section>
+    <section id="education">
             <!--Education (including completed courses and training)-->
             <h2>Education</h2>
             <ul>
-                <li data-rs>
-                    <time itemprop="startDate" datetime="2026-09-07">September, 2026</time>-<time>now</time>
-                    RS School attendee (JavaScript Fullstack)
+                <li data-rs itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                    <h3 itemprop="name">RS School</h3>
+                    <p>JavaScript Fullstack (<time itemprop="startDate" datetime="2026-09-07">September, 2026</time> - <time>now</time>)</p>
                 </li>
-                <li>
-                    <time itemprop="startDate" datetime="2016-10-01">October, 2016</time>
-                    <time itemprop="endDate" datetime="2016-09-01">September, 2021</time>
-                    Wroclaw University of Science and Technology (Architecture and Urban Planning)
+                <li itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                    <h3 itemprop="name">Wroclaw University of Science and Technology</h3>
+                    <p>Architecture and Urban Planning (<time itemprop="startDate" datetime="2016-10-2016">2016</time> - <time itemprop="endDate" datetime="2021-09-01">2021</time>)</p>
                 </li>
-                <li>
-                    <time itemprop="startDate" datetime="2003-09-01">September, 2003</time>-<time itemprop="endDate" datetime="2008-07-01">July, 2008</time>
-                    Belarusian State University Informatics and Radioelectronics (Computer-AidedDesign)
+                
+                <li itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                    <h3 itemprop="name">Belarusian State University Informatics and Radioelectronics</h3>
+                    <p>Computer-AidedDesign (<time itemprop="startDate" datetime="2003-09-01">September, 2003</time> - <time itemprop="endDate" datetime="2008-07-01">July, 2008</time>)</p> 
                 </li>
             </ul>    
             
