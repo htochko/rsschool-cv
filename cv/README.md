@@ -2,7 +2,7 @@
 # Helen Tochko - Fullstack web developer 
 ## Contacts
 * [Linkedin](https://www.linkedin.com/in/htochko-webdev/)
-* lentochko@gmail.com
+* <lentochko@gmail.com>
 * [Discord](https://discord.com/users/1052706421684322356)
 
 ____
@@ -45,11 +45,14 @@ ____
     - _technologies:_ React.js, Leaflet.js, CKEditor, Cropper.js, JQuery, MySQL, Laravel, Symfony, Docker
     - _responsibilities:_ Implemented new components mentoring team with React: maps, quizzes, polls, interactive tables from .csv consistent with WCAG, set up a docker environment for the team, enhanced CMS making easier routine operations.
 ____
+
 - 07.2022 - 10.22: Symfony Developer at Polcode (Remote)
   - [**FirmProspects**](https://www.firmprospects.com/) (specialized portal for attorneys)
     - _technologies:_ Reactjs+REDUX, HighCharts, Symfony 4..6, MySQL, ElasticSearch, Docker
     - _responsibilities:_ Developed public profiles pages optimized for SEO, back-end classes and react components decomposition for better performance, data-visualizations on reports(high-charts), integrated unicourt API, prepared docker files for sub-projects
+  
 ____
+
 - 06.2021 - 04.2022: Fullstack developer at Agentura JT Group spol. sr.o. (Remote)
   - [**Ucliq.com**](https://ucliq.com) (affiliate system)
     - _technologies:_ Reactjs+REDUX(.ts), Symfony (API-Platform), MySQL, ClickHouse, Docker
@@ -90,6 +93,7 @@ _________
     - _technologies:_ Symfony2/Doctrine2, Angularjs
     - _responsibilities:_ Designed and developed Back-office, 100% covered with unit tests
 ___________
+
 - 02.2014 - 09.2014 at R-Style lab (Minsk)
   - **Hjerteapotek** (Magento based e-shop)
     - _technologies:_ Magento 1.7, Twitter bootstrap, Klarna (payment system)
@@ -100,6 +104,7 @@ ___________
   - **Conference** (SaaS for managing apps for conferences: agendas, speakers, floor plans)
     - _technologies:_ Laravel4, Twitter bootstrap
     - _responsibilities:_ Developed REST API with multi language and admin back-office
+
 ___________
 
 - 04.2013 - 01.2014 at Belhard (Minsk)
@@ -110,6 +115,7 @@ ___________
   - **Magesocial** (extension for building reputation based community on e-commerce websites)
     - _technologies:_ Magento 1.7, JQuery
     - _responsibilities:_ developed magento extension enhancing user profile with social-network features
+
 _______
 
 - 01.2012 - 02.2013 at Belhard (Minsk)
@@ -128,6 +134,8 @@ _______
   - **AutoWurld** (Retail, Wholesale, Auction channels integration platform for car wholesalers)
     - _technologies:_ ZF1+Smarty, JS
     - _responsibilities:_ Integrated KBB, PayPall, GMaps APIs and PhpBB into the service, implemented dealer’s cabinet with csv data import.
+________
+
 
 - 02.2008 - 03.2011: PCB-designer at LEMT (Minsk)
 - 02.2007 - 02.2008: QA engineer at ScienceSoft (Minsk)
@@ -145,3 +153,6 @@ _____________
 * Polish B2+
 * Russian C1
 * German A2
+______________________
+
+[![RS School website](https://raw.githubusercontent.com/rolling-scopes-school/tasks/b97be56aead8d10c06ef3473e0db9abaa662abf4/tasks/cv/rs-school-logo.svg)](https://app.rs.school/)
