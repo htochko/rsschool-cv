@@ -5,11 +5,11 @@
 * lentochko@gmail.com
 * [Discord](https://discord.com/users/1052706421684322356)
 
-=====
+____
 ## Intro
 10+ years of professional experience building scalable web apps. Quick learner, JS library agnostic, comfortable with Angular and React ecosystems.
 
-=====
+____
 ## Skills
 * Core Javascript
 * TypeScript
@@ -28,15 +28,16 @@
 * Webpack
 * Unit Test
 * Ubuntu
+_____________
 
-=====
-<a name="code">Code example</a>
+## Code
 ```
 function createPhoneNumber(numbers){
   return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`
 }
 ```
-======
+_____________
+
 ## Experience
 
 * 04.2023 - 03.2026: Programmer at ARAW S. A. (Wroclaw)
@@ -184,12 +185,14 @@ _responsibilities:_ Integrated KBB, PayPall, GMaps APIs and PhpBB into the servi
 * 02.2008 - 03.2011: PCB-designer at LEMT (Minsk)
 * 02.2007 - 02.2008: QA engineer at ScienceSoft (Minsk)
 
-======
-## Education
-* **Wroclaw State University of Science and Technology**, Architecture Design and Urban Planning (2016-2021)
-* **Belarusian State University of informatics and Radioelectronics**, ComputerAided Design (2003-2008)
+___________
 
-======
+## Education
+* Wroclaw State University of Science and Technology, _Architecture Design and Urban Planning_ (2016-2021)
+* Belarusian State University of informatics and Radioelectronics, _ComputerAided Design_ (2003-2008)
+
+_____________
+
 ## Languages
 * English B2+
 * Polish B2+
