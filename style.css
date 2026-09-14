@@ -85,7 +85,7 @@
         nav > ul > li > a {
             color: var(--primary-color);
         }
-        
+
         #contacts a:hover {
             text-decoration: underline;
         }
@@ -242,3 +242,4 @@
             margin-top: 0.75rem;
             font-size: 0.95rem;
         }
+        .sr-only {display: none}
