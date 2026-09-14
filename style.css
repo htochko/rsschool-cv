@@ -59,7 +59,7 @@
             color: #4a5568;
         }
 
-        .contact-info {
+        #contacts > ul, nav > ul {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -68,20 +68,26 @@
             font-size: 0.95rem;
         }
 
-        .contact-info a, .contact-info span {
+        #contacts > ul > li, nav > ul > li {
             color: #4a5568;
-            text-decoration: none;
             display: flex;
             align-items: center;
+            padding-left: 1em 0;
             gap: 0.4rem;
-        }
-
-        .contact-info a:hover {
             color: var(--primary-color);
         }
-
-        .contact-info i {
+        #contacts  > ul > li > a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
             color: var(--primary-color);
+        }
+        nav > ul > li > a {
+            color: var(--primary-color);
+        }
+        
+        #contacts a:hover {
+            text-decoration: underline;
         }
 
         section {
@@ -235,4 +241,4 @@
             gap: 1.25rem;
             margin-top: 0.75rem;
             font-size: 0.95rem;
-        }    
+        }
