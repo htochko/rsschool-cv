@@ -153,6 +153,7 @@ _____________
 * Polish B2+
 * Russian C1
 * German A2
+
 ______________________
 
 [![RS School website](https://raw.githubusercontent.com/rolling-scopes-school/tasks/b97be56aead8d10c06ef3473e0db9abaa662abf4/tasks/cv/rs-school-logo.svg)](https://app.rs.school/)
